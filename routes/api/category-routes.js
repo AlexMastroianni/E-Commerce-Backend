@@ -61,7 +61,6 @@ router.post("/", (req, res) => {
       res.status(500).json(err);
     });
 });
-
 router.put("/:id", (req, res) => {
   // update a category by its `id` value
   Category.update(req.body, {
@@ -71,7 +70,7 @@ router.put("/:id", (req, res) => {
   })
     .then((categoryDB) => {
       if (!categoryDB) {
-        res.status(404).json({ message: "Categories not found" });
+        res.status(404).json({ message: "No category found with this id" });
         return;
       }
       res.json(categoryDB);
