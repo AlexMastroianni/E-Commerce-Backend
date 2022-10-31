@@ -4,6 +4,8 @@
 
 A mysql database and application backend for an e-commerce site
 
+<img width="1840" alt="Screen Shot 2022-10-31 at 7 21 28 pm" src="https://user-images.githubusercontent.com/107826386/198963448-1d04c973-1576-421c-b711-98178f28d029.png">
+
 
 ## Built with
 - MySQL2
@@ -41,7 +43,7 @@ Enter PW when promted
 
 ## Links
 
-[Github Repo](https://github.com/AlexMastroianni/week-13-challenge)
+[Github Repo](https://github.com/AlexMastroianni/E-Commerce-Backend)
 
 [Video Link](https://drive.google.com/file/d/1suABwRqIck5SwpYh2cYn6GVZdx6J-Rud/view?usp=share_link)
 
